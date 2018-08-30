@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<!--
+	Thys Apparel by Hovnan Eayrs
+	hoveayrs.tumblr.com | @hoveayrs
+	© Hovnan Eayrs 2018
+-->
+<html class="home">
+
+	<head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google" content="nositelinkssearchbox" />
+    <title>Thys Apparel - A new distinctive clothing brand.</title>
+		<meta name="description" content="Creators of Thys Shoelace - vibrant multicoloured gradient shoelaces. Buy now on Amazon. Follow us on Twitter and Instagram." />
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+  </head>
+
+	<body>
+		<div id=page>
+
+			<div>
+				<p class="main">☞ Thys is functional, versatile and distinctive apparel.</br>
+				→ Thys is how to get our show-stopping <a class="ultraviolet" href="shoelace" title="Coming very soon.">shoelaces</a>.</br>
+			  ➨ Thys is where you should share your <a class="sunset" href="https://instagram.com/thysapparel" title="Instagram">pics</a> and <a class="marine" href="https://twitter.com/thysapparel" title="Twitter">tweets</a> with us.</br>
+				➪ Thys is <a class="blush" href="https://blog.thysapparel.co" title="Our blog">us</a>.
+			</p>
+			</div>
+
+			<img src="images/profile.png" alt="Thys Logo">
+
+			<div id=footer>
+				<p class="copyright">© Thys Apparel 2018</p>
+			</div>
+	</body>
+
+</html>
