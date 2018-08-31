@@ -77,6 +77,19 @@ a.ultraviolet:before {
   transition: 0.2s ease all .3s;
 }
 
+a.otherlink:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: white;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease all .3s;
+  transition: 0.2s ease all .3s;
+}
+
 a.sunset:before {
   content: "";
   position: absolute;
@@ -156,12 +169,8 @@ opacity: 40%;
 }
 
 a.otherlink {
-  color: #4A4A4A;
+  color: white;
   text-align: left;
   padding-left: 1em;
   padding-bottom: 1em;
-}
-
-a.otherlink:hover {
-  color: #fff;
 }
