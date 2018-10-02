@@ -1,145 +1,32 @@
-<!DOCTYPE HTML>
-<!--
-	Thys Apparel by Hovnan Eayrs
-	hoveayrs.tumblr.com | @hoveayrs
-	© Hovnan Eayrs 2018
--->
-<html class="comingsoon">
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Image gallery with zoom</title>
 
-	<head>
-    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="google" content="nositelinkssearchbox" />
-    <title>Thys Shoelace - thys is an new kind of shoelace</title>
-		<meta name="description" content="Vibrant gradient shoelaces in 4 different colours. Coming very soon to Amazon." />
-		<link href="css/style2.scss" rel="stylesheet" type="text/scss">
-    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
-		<script language="javascript">
-		const imgContent = document.querySelectorAll('.img-content-hover')
-		function showImgContent(e) {
-			for(var i = 0; i < imgContent.length; i++) {
-				imgContent[i].style.left = e.pageX + 'px';
-				imgContent[i].style.top = e.pageY + 'px';}
-};
-document.addEventListener('mousemove', showImgContent);
-</script>
 
-	</head>
 
-	<body>
-		<nav>
-  <div class="container">
-    <div class="grid">
-      <div class="column-xs-12 column-md-10">
-        <p id="highlight">Katherine Kato</p>
-      </div>
-      <div class="column-xs-12 column-md-2">
-        <ul>
-          <li><a href="#" class="active">Work</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>
-<section class="gallery">
-  <div class="container">
-    <div class="grid">
-      <div class="column-xs-12 column-md-4">
-        <figure class="img-container">
-          <img src="https://source.unsplash.com/8b1cWDyvT7Y" />
-          <figcaption class="img-content">
-            <h2 class="title">Smart Watch</h2>
-            <h3 class="category">Showcase</h3>
-          </figcaption>
-          <span class="img-content-hover">
-            <h2 class="title">Smart Watch</h2>
-            <h3 class="category">Showcase</h3>
-          </span>
-        </figure>
-      </div>
-      <div class="column-xs-12 column-md-4">
-        <figure class="img-container">
-          <img src="https://source.unsplash.com/5VXH4RG88gc" />
-          <figcaption class="img-content">
-            <h2 class="title">Camera Film</h2>
-            <h3 class="category">Showcase</h3>
-          </figcaption>
-          <span class="img-content-hover">
-            <h2 class="title">Camera Film</h2>
-            <h3 class="category">Showcase</h3>
-          </span>
-        </figure>
-      </div>
-      <div class="column-xs-12 column-md-4">
-        <figure class="img-container">
-          <img src="https://source.unsplash.com/XtUd5SiX464">
-          <figcaption class="img-content">
-            <h2 class="title">Coffee</h2>
-            <h3 class="category">Showcase</h3>
-          </figcaption>
-          <span class="img-content-hover">
-            <h2 class="title">Coffee</h2>
-            <h3 class="category">Showcase</h3>
-          </span>
-        </figure>
-      </div>
-      <div class="column-xs-12 column-md-6">
-        <figure class="img-container">
-          <img src="https://source.unsplash.com/JYGnB9gTCls" />
-          <figcaption class="img-content">
-            <h2 class="title">Phone</h2>
-            <h3 class="category">Showcase</h3>
-          </figcaption>
-          <span class="img-content-hover">
-            <h2 class="title">Phone</h2>
-            <h3 class="category">Showcase</h3>
-          </span>
-        </figure>
-      </div>
-      <div class="column-xs-12 column-md-6">
-        <figure class="img-container">
-          <img src="https://source.unsplash.com/-RBuQ2PK_L8" />
-          <figcaption class="img-content">
-            <h2 class="title">Keyboard</h2>
-            <h3 class="category">Showcase</h3>
-          </figcaption>
-          <span class="img-content-hover">
-            <h2 class="title">Keyboard</h2>
-            <h3 class="category">Showcase</h3>
-          </span>
-        </figure>
-      </div>
-      <div class="column-xs-12">
-        <figure class="img-container">
-          <img src="https://source.unsplash.com/P44RIGl9V54" />
-          <figcaption class="img-content">
-            <h2 class="title">Wrist Watch</h2>
-            <h3 class="category">Showcase</h3>
-          </figcaption>
-          <span class="img-content-hover">
-            <h2 class="title">Wrist Watch</h2>
-            <h3 class="category">Showcase</h3>
-          </span>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="container">
-    <div class="grid">
-      <div class="column-xs-12">
-        <ul class="social">
-          <li><a href="https://twitter.com/kato_katherine" target="_blank" rel="noopener noreferrer"><span class="fab fa-twitter"></span></a></li>
-          <li><a href="https://codepen.io/kathykato" target="_blank" rel="noopener noreferrer"><span class="fab fa-codepen"></span></a></li>
-          <li><a href="https://github.com/kathykato" target="_blank" rel="noopener noreferrer"><span class="fab fa-github"></span></a></li>
-        </ul>
-        <p class="copyright">&copy; Copyright 2018 Katherine Kato</p>
-      </div>
-    </div>
-  </div>
-</footer>
+      <link rel="stylesheet" href="css/style2.css">
+
+
+</head>
+
+<body>
+  <div class="gallery">
+  <div class="img-w">
+    <img src="https://images.unsplash.com/photo-1485766410122-1b403edb53db?dpr=1&auto=format&fit=crop&w=1500&h=846&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485793997698-baba81bf21ab?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485871800663-71856dc09ec4?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485871882310-4ecdab8a6f94?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485872304698-0537e003288d?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485872325464-50f17b82075a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1470171119584-533105644520?dpr=1&auto=format&fit=crop&w=1500&h=886&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485881787686-9314a2bc8f9b?dpr=1&auto=format&fit=crop&w=1500&h=969&q=80&cs=tinysrgb&crop=" alt="" /></div>
+  <div class="img-w"><img src="https://images.unsplash.com/photo-1485889397316-8393dd065127?dpr=1&auto=format&fit=crop&w=1500&h=843&q=80&cs=tinysrgb&crop=" alt="" /></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
 </body>
-
 </html>
