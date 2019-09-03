@@ -1,6 +1,6 @@
 
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Nanum Gothic Coding', monospace;
 }
 
 p, li, span {
@@ -40,11 +40,11 @@ html.comingsoon {
   height: 100%;
 }
 
-img {
-  top: .5em;
+img.logo {
+  top: 1em;
   left: 1em;
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   position: fixed;
 }
 
