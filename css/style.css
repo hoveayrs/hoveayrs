@@ -1,6 +1,7 @@
 
 html {
   font-family: 'Nanum Gothic Coding', monospace;
+  font-size: calc(1em + 1vw)
 }
 
 p, li, span {
@@ -43,8 +44,9 @@ html.comingsoon {
 img.logo {
   top: 1em;
   left: 1em;
-  width: 6em;
-  height: 6em;
+  width: 3em;
+  height: 3em;
+  padding-bottom: 1em;
   position: fixed;
 }
 
