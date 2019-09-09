@@ -17,6 +17,14 @@ p.main {
   color: #fff
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: fixed;
+}
+
 .disabled {
   text-decoration: line-through;
 }
@@ -39,15 +47,6 @@ html.comingsoon {
 #page {
   width: 100%;
   height: 100%;
-}
-
-img.logo {
-  top: 1em;
-  left: 1em;
-  width: 3em;
-  height: 3em;
-  padding-bottom: 1em;
-  position: fixed;
 }
 
 #footer {
