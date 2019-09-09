@@ -14,7 +14,7 @@ p.main {
   padding: 5em 0;
   padding-left: 2em;
   padding-right: 2em;
-  color: #fff
+  color: black;
 }
 
 .center {
@@ -33,7 +33,7 @@ p.copyright {
   font-size: .5em;
   text-align: right;
   padding-right: 1em;
-  color: #fff
+  color: black;
 }
 
 html.home {
