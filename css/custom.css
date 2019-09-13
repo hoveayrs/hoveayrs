@@ -1,0 +1,20 @@
+a.blush:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #f8a3ad 0%, #F15B6C);
+  visibility: hidden;
+  -webkit-transition: 0.3s ease all .3s;
+  transition: 0.3s ease all .3s;
+}
+
+.blush {
+color: #F8A3AD;
+background: linear-gradient(to right, #f8a3ad 0%, #F15B6C);
+opacity: 40%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
